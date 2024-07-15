@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff0000;
+}
+.login-container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.login-container img{
+    width:100px;
+margin-left: 170px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.new-user{
+    display: flex;
+}
+.register-here{
+    margin-left: 235px;
+}
+
+
+button:hover {
+    background-color: #98c0eb;
+}
+.forget{
+    display: flex;
+}
+.forgot-password{
+    margin-left: 165px;
+}
+.card{
+  margin-top: 50px;
+  width: 435px
+}
+.cards{
+    margin-top: 50px;
+    width: 850px
+}
+.signup-container {
+    padding-top: 350px;
+    height: auto;
+    background-color:whitesmoke;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .signup-container h1,p{
+    text-align: center;
+  }
+
+  .origin{
+    display: flex;
+  }
+  .dropdown{
+    margin-left: 2%;
+  }
+input[type=text], input[type=password], input[type=number], input[type=email],  input[type=file] {
+    width: 88%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus, input[type=radio]:focus, input[type=checkbox]:focus, input[type=file]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=radio], input[type=checkbox]{
+    width: 10%;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }  
+  button {
+    background-color: #6150a9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+.dropdown {
+    margin-bottom: 10px;
+}
+.gender p{
+  text-align: left;
+    margin-right: 100px;
+    padding:10px;
+}
+select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
